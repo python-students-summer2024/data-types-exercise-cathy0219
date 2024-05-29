@@ -70,6 +70,6 @@ def align_text():
     price3 = float(input("Enter price #3: "))
     
     print("\nHere are your prices!\n")
-    print("Price #1: ${:10.2f}".format(price1))
-    print("Price #2: ${:10.2f}".format(price2))
-    print("Price #3: ${:10.2f}".format(price3))
+    print("Price #1: ${:8.2f}".format(price1))
+    print("Price #2: ${:8.2f}".format(price2))
+    print("Price #3: ${:8.2f}".format(price3))
